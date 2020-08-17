@@ -35,7 +35,5 @@ def dataBase(request):
         print("the value of flag is:",flag)
         if flag == 0:
             c.save()
-        
-        
-            
+                
     return HttpResponse("<h1>If You are reading this then your database is updated...</h1>")
